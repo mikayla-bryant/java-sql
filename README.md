@@ -229,53 +229,42 @@ Below are some empty tables to be used to normalize the database
 - Not all of the cells will contain data in the final solution
 - Feel free to edit these tables as necessary
 
-Table Name:
+Table Name: Person Table
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
+| person_id | person_name | fenced_yard | city_dweller |
+| --------- | ----------- | ----------- | ------------ |
+| 1         | Jane        | 2           | 1            |
+| 2         | Bob         | 2           | 2            |
+| 3         | Sam         | 1           | 2            |
 
-Table Name:
+Table Name: Pet Type
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
+| type_id | pet_type |
+| ------- | -------- |
+| 1       | Dog      |
+| 2       | Horse    |
+| 3       | Cat      |
+| 4       | Turtle   |
+| 5       | Fish     |
 
-Table Name:
+Table Name: Yes / No
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
+| id  | (y/n) |
+| --- | ----- |
+| 1   | yes   |
+| 2   | no    |
 
-Table Name:
+Table Name: Pets
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
+| pet_id | pet_name   | type_id | person_id |
+| ------ | ---------- | ------- | --------- |
+| 1      | Ellie      | 1       | 1         |
+| 2      | Joe        | 2       | 2         |
+| 3      | Ginger     | 1       | 3         |
+| 4      | Tiger      | 3       | 1         |
+| 5      | Miss Kitty | 3       | 3         |
+| 6      | Toby       | 4       | 1         |
+| 7      | Bubble     | 5       | 3         |
 
 ---
 
